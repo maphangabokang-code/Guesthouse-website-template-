@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sunrise Guesthouse</title>
+
+<style>
+body{
+    margin:0;
+    font-family:Arial, sans-serif;
+}
+
+header{
+    background:#2c3e50;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+.hero{
+    background:#3498db;
+    color:white;
+    text-align:center;
+    padding:100px 20px;
+}
+
+.hero h1{
+    font-size:48px;
+}
+
+.btn{
+    background:#f39c12;
+    color:white;
+    padding:12px 25px;
+    text-decoration:none;
+    border-radius:5px;
+}
+
+section{
+    padding:40px 20px;
+}
+
+.rooms{
+    display:flex;
+    flex-wrap:wrap;
+    gap:20px;
+}
+
+.room{
+    flex:1;
+    min-width:220px;
+    border:1px solid #ddd;
+    padding:20px;
+    border-radius:10px;
+    text-align:center;
+}
+
+.about{
+    background:#f4f4f4;
+}
+
+footer{
+    background:#2c3e50;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+</style>
+
+</head>
+<body>
+
+<header>
+<h1>Sunrise Guesthouse</h1>
+<p>Your Home Away From Home</p>
+</header>
+
+<div class="hero">
+<h1>Comfortable & Affordable Accommodation</h1>
+<p>Relax and enjoy your stay with us.</p>
+<br>
+<a href="#" class="btn">Book Now</a>
+</div>
+
+<section>
+<h2>Our Rooms</h2>
+
+<div class="rooms">
+
+<div class="room">
+<h3>Standard Room</h3>
+<p>Comfortable room with Wi-Fi and TV.</p>
+<p><strong>R650 per night</strong></p>
+</div>
+
+<div class="room">
+<h3>Deluxe Room</h3>
+<p>Spacious room with modern amenities.</p>
+<p><strong>R850 per night</strong></p>
+</div>
+
+<div class="room">
+<h3>Family Room</h3>
+<p>Perfect for family vacations.</p>
+<p><strong>R1200 per night</strong></p>
+</div>
+
+</div>
+</section>
+
+<section class="about">
+<h2>Facilities</h2>
+
+<ul>
+<li>Free Wi-Fi</li>
+<li>Swimming Pool</li>
+<li>Secure Parking</li>
+<li>Breakfast Included</li>
+<li>24-Hour Reception</li>
+</ul>
+
+</section>
+
+<section>
+<h2>Contact Us</h2>
+
+<p>📞 Phone: </p>
+<p>📧 Email: bookings@sunriseguesthouse.co.za</p>
+<p>📍  KwaZulu-Natal</p>
+
+</section>
+
+<footer>
+<p>© 2026 Sunrise Guesthouse</p>
+</footer>
+
+</body>
+</html>
